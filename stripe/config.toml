@@ -1,0 +1,12 @@
+color = ''
+[default]
+account_id = 'acct_1Hbn1VGPjKnxQmZJ'
+device_name = 'Pierres-MacBook-Pro.local'
+display_name = 'PlayWithViewers'
+live_mode_api_key = 'rk_live_***********************************************************************************************IA1U'
+live_mode_key_expires_at = '2023-08-16'
+live_mode_pub_key = 'pk_live_51Hbn1VGPjKnxQmZJDNmJSfVyuV9yuDZhaTMw8x2ZYmVu3O9zmAtUm0BDMVXaNbGxV6yXTA7qcSAqsI5FcY9vxmBr00TlvLdGPr'
+test_mode_api_key = 'rk_test_51Hbn1VGPjKnxQmZJOZ9RjBueVCYuIbrAZpHXIe9tBGShWOt1XWT9b5zdPzIh6XSa2OPe77fUAn3O25KXJnogkO2S00YVavarHz'
+test_mode_key_expires_at = '2023-08-16'
+test_mode_pub_key = 'pk_test_51Hbn1VGPjKnxQmZJRCnRvt72BEOGQICWD2EgMYoo1hch1lIQUUXHwuKd90JLfxEK0OTuGQMSaawMbwq1nKWF6e6f00JhRQeaBn'
+

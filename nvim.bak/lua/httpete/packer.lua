@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
 
   -- Theme
   use 'folke/tokyonight.nvim'
+
   use 'bluz71/vim-nightfly-guicolors'
   use { "mangeshrex/everblush.vim" }
 
@@ -81,19 +82,16 @@ return require('packer').startup(function(use)
 
   -- Formatting
   --use { 'mhartington/formatter.nvim' }
-  --use('jose-elias-alvarez/null-ls.nvim')
-  --use('MunifTanjim/prettier.nvim')
-  --use('neovim/nvim-lspconfig')
   use('jose-elias-alvarez/null-ls.nvim')
   use('MunifTanjim/prettier.nvim')
 
   -- Comment
-  use {
-    'numToStr/Comment.nvim',
-    config = function()
-      require('Comment').setup()
-    end
-  }
+  -- use {
+  --   'numToStr/Comment.nvim',
+  --   config = function()
+  --     require('Comment').setup()
+  --   end
+  -- }
 
   -- Windows not focused are faded
   --use 'sunjon/shade.nvim'
@@ -129,11 +127,13 @@ return require('packer').startup(function(use)
 
   use("nvim-pack/nvim-spectre")
 
-  use("mg979/vim-visual-multi")
+  -- Multi cursor
+  -- use("mg979/vim-visual-multi")
 
   -- Colorize hex
   use 'NvChad/nvim-colorizer.lua'
 
   -- Git gutter
   use 'airblade/vim-gitgutter'
+
 end)
